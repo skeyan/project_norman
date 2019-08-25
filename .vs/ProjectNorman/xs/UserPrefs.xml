@@ -1,23 +1,12 @@
 ﻿<Properties StartupConfiguration="{C21B4787-7DC8-C379-2B24-CA5257087D53}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CharController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/RotateCamera.cs">
     <Files>
-      <File FileName="Assets/CharController.cs" Line="45" Column="24" />
+      <File FileName="Assets/RotateCamera.cs" Line="51" Column="10" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="ProjectNorman" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="CharController.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dba72dc0-a611-47b6-8f7c-bdb6e2f99c0f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e85e7f94-b616-4657-a523-6d2a6181ee56" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
