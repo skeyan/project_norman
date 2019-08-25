@@ -7,7 +7,8 @@ using UnityEngine;
 public class RotateCamera : MonoBehaviour
 {
     public GameObject targetObject; // Floor plane object
-    private float targetAngle = 0f; // 0f default for initial camera setup position
+    private float targetAngle = 0f;
+        // 0f default for initial camera setup position
     const float rotationAmount = 1.5f;
     public float rDistance = 1.0f;
     public float rSpeed = 1.0f;
@@ -40,8 +41,14 @@ public class RotateCamera : MonoBehaviour
          * Rotate the camera around the center of the targetObject (the Floor plane)
          * A negative 90 degree or positive 90 degree depending on direction
          * And account for the change in targetAngle.
-         * That way, even in that new position, other additional rotations
+         * 
+         * The rotationAmount being set to 1.5f means that it should rotate at 60fps.
+         * Thus, when the key is pressed once, Rotate() will keep activating the respective
+         * if statement to decrease or increase targetAngle back to 0 until it has finished
+         * rotating.
          *
+         * This means that everytime the camera rotates 90 degrees, when it stops, its position is
+         * referred to by targetAngle as 0. 
          */
         if (targetAngle > 0)
         {
